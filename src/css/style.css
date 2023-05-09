@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap');
+
+body {
+    background-color: var(--background-color);
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    
+}
+
+.card {
+    /* todos os itens passa a ser flex item */
+    display: flex;
+    /* define o alinhamento dos ítens ao longo do eixo principal (horizontal) */
+    justify-content: center;
+    /* alinha verticalmente  flex itens que são os elementos-filhos*/
+    align-items: center;
+	/*Se não centralizar verticalmente é porque tem pouca altura para resolver isso usamos height: 100vh; para ocultar toda a altura da tela sendo usada.*/
+    height: 100vh;
+}
+   
+
+.advice {
+    display: flex;
+    /* Coloca os flex items na vertical um em baixo do outro */
+    flex-direction: column;
+    /* alinha verticalmente  flex itens que são os elementos-filhos*/
+    align-items: center;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    margin: 20px;
+    width: 345px;
+    /* width: 500px; */
+}
+
+/* Vai estilizar o h2 */
+.advice .advice-id {
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+/* Vai estilizar o p */
+.advice .advice-descripton {
+    font-size: 23px;
+    padding: 23px;
+    text-align: center;
+    color: var(--text-color);
+
+}
+
+/* Vai estilizar o botão */
+.advice .advice-update {
+    width: 60px;
+    height: 60px;
+    /* o botão ficara no formato de um circulo  */
+    border-radius: 50px;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+picture .divider-desktop {
+    width: 100%;
+}
+
+.advice .advice-update:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
