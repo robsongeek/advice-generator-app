@@ -1,6 +1,6 @@
-# Frontend Mentor - Profile card component solution
+# Frontend Mentor - Advice Generator App - component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Advice Generator App - Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -24,8 +24,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [repository-Github](https://robsongeek.github.io/profile-card/)
-- Page: [Page-GitHub](https://github.com/robsongeek)
+- Solution URL: [repository-Github](https://github.com/robsongeek/advice-generator-app)
+- Page: [Page-GitHub](https://robsongeek.github.io/advice-generator-app/)
 
 ### Built with
 
